@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :courses
   # Defines the root path route ("/")
   root "static_pages#landing_page"
   
